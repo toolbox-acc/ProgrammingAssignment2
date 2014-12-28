@@ -1,0 +1,165 @@
+demo()
+glm.vr
+lm.glm
+nlm
+demo(nlm)
+demo(glm.vr)
+demo(lm.glm)
+demo(smooth)
+demo(image)
+demo(persp)
+demo(plotmath)
+demo(graphics)
+demo(Japanese)
+demo(Hershey)
+demo(scoping)
+demo(recursion)
+demo(package = .packages(all.available = TRUE))
+demo(lattice)
+demo(labels)
+print packages
+print .packages
+print all
+demo(tkcanvas)
+demo(glm)
+exit
+quit
+quit()
+install.packages("statnet")
+install.packages(c("network", "ergm", "networkDynamic"))
+library("statnet")
+install.packages("statnet")
+data("florentine")
+$pwd
+!pwd
+summary(flomarriage)
+data(flomarriage)
+data('florentine')
+summary(flomarriage)
+model1<-ergm(flomarriage~edges)
+summary(model1)
+model2<-ergm(flomarriage~edges+triangles)
+summary(model2)
+model2<-ergm(flomarriage~edges+triangles)
+summary(model2)
+model2<-ergm(flomarriage~edges+triangles)
+summary(model2)
+x <- 4L
+x
+x.class()
+class(x)
+x <- c(4, "a", TRUE)
+class(x)
+x
+x <- c(1,3, 5)
+y <- c(3, 2, 10)
+rbind(x, y)
+u <- rbind(x, y)
+u
+class(u)
+u[0]
+help(u)
+??u
+x <- list(2, "a", "b", TRUE)
+x[2]
+x[[2]]
+x
+class(x)
+x[[]]
+x[[2]]
+x[2]
+class(x[[2]])
+x <- 1:4
+x
+y <- 2:3
+x+y
+y
+x <- c(17, 14, 4, 5, 13, 12, 10)
+x
+x[x>10]<-4
+x
+x <- c(17, 14, 4, 5, 13, 12, 10)
+x[x >10] == 4
+R.version.string
+x <- c("a", "b", "c", "d")
+seq_along(x)
+rbinom(1,1,0.5)
+formals
+formals()
+args(lm)
+args(paste)
+args(cat)
+search()
+y <- 10
+f <- function(x) {}
+f <- function(x) {
+y<-2
+y^2 + g(x)
+}
+g <- function(x) {
+x*y
+}
+f93)
+f(3)
+Sys.time()
+as.POSIXlt(Sys.time())
+p<-as.POSIXlt(Sys.time())
+names(p)
+unclass(p)
+names(unclass(p))
+?unclass
+p$sec
+p$year
+parent.frame()
+parent.env()
+parent.env(env)
+library(cachematrix)
+library(cachematrix.R)
+load(cachematrix.R)
+load('cachematrix.R')
+source('cachematrix.R')
+aa = makeCacheMatrix()
+class(aa)
+aa
+aa.set(matrix(1:16),4,4)
+aa$set(matrix(1:16),4,4)
+aa$set(matrix(1:16,4,4))
+aa
+aa.x
+aa$x
+aa$get()
+aa$getinv()
+source('cachematrix.R')
+aa = makeCacheMatrix()
+aa$set(matrix(1:16,4,4))
+aa$getinv()
+source('cachematrix.R')
+aa = makeCacheMatrix()
+aa$set(matrix(1:16,4,4))
+aa$getinv()
+aa$getinv()
+source('cachematrix.R')
+aa = makeCacheMatrix()
+aa$set(matrix(1:16,4,4))
+aa$getinv()
+source('cachematrix.R')
+aa$set(matrix(1:16,4,4))
+aa$getinv()
+source('cachematrix.R')
+aa$set(matrix(1:16,4,4))
+aa = makeCacheMatrix()
+aa$set(matrix(1:16,4,4))
+aa$getinv()
+source('cachematrix.R')
+aa = makeCacheMatrix()
+source('cachematrix.R')
+aa = makeCacheMatrix()
+aa$set(matrix(1:16,4,4))
+cacheSolve(aa)
+aa$set(matrix(sample(16),4,4))
+cacheSolve(aa)
+cacheSolve(aa)
+cacheSolve(aa)
+cacheSolve(aa)
+exit()
+exit

@@ -1,6 +1,14 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
+## this set of functions allow to create a matrix
+## and calculate a matrix inverse, once the matrix
+## inverse has been calculated it is cached and
+## does not need to be recomputed
+##
+## 
+
+
 ## Write a short comment describing this function
 ## makeCacheMatrix creates an object 
 ## containing a matrix and its inverse
